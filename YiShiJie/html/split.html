@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+#cyc{
+	height:100px;
+	width:100px;
+	border-radius: 0.5px;
+	background-color: #dbcfd3;
+}
+.sp{
+	float:left;
+	list-style: none;
+	opacity:0;
+}
+
+	</style>
+</head>
+<body>
+<div id="cyc"></div>
+<div class="split">这个方法很不好用</div>
+<div class="box"></div>
+<script src="../js/jquery.js"></script>
+<script src="../js/TimelineMax.js"></script>
+<script src="../js/TweenMax.js"></script>
+<script>
+
+//t1.add(TweenLite.to('#cyc',2,{height:2800,width:2800,borderRadius:1400,top:-1000,left:-1200}));
+var sp=$('.split').text();//获取文本
+var text_all="";
+var text="";
+sp=sp.split("");//开始切割字符串
+sp=sp.reverse();//倒置字符串
+
+for(var i=0;i<sp.length;i++){
+	text="<li class='sp'>"+sp[i]+"</li>";
+	text_all=text+text_all;
+}
+text="<ul>"+text_all+"</ul>";//生成序列
+$(".split").html(text);//放入展示盒子
+
+var t1=new TimelineMax();
+var sp=$('.sp');
+t1.staggerTo(sp,0.3, {opacity:1}, 0.5);//开始动画
+
+
+
+</script>	
+</body>
+</html>

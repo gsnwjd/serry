@@ -1,0 +1,198 @@
+*{
+	border:0px;
+	padding:0px;
+	margin:0px; 
+	}
+
+.con,.hd,.bd{
+	width:1160px;
+	margin:0px auto;
+	
+}
+.con{
+	height:640px;
+	
+	position: relative;
+}
+.bg1{
+	background-color: #ffffff;
+}
+.hd{
+	height:77px;
+}
+.hd_cut{
+	height:60px;
+	width:25%;
+	color:#8c8c8c;
+	font-size: 15px;
+	padding-top: 10px;
+	text-align: center;
+	float:left;
+	font-family:Baskerville Old Face;
+}
+.hd_cut:hover{
+	text-decoration: underline;
+}
+.bd{
+	height:563px;
+}
+.bd_r,.bd_l{
+	height:563px;
+	width:580px;
+	overflow: hidden;
+	float:left;
+}
+.bd_l{
+
+	font-family:Baskerville Old Face;
+}
+.l_hd{
+	padding-top: 10px;
+	font-size: 45px;
+	margin:0px auto;
+
+	height:53px;
+	text-align: center;
+}
+.l_hd_all{
+	height:63px;
+	overflow: hidden;
+	position: relative;
+}
+.scroll{
+	width:580px;
+	height:126px;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.l_hd_text{
+	font-size: 20px;
+	margin:0px auto;
+
+	height:30px;
+	text-align: center;
+	padding-top: 8px;
+}
+.l_bd_all{
+	margin-top:10px;
+	width:580px;
+	overflow: hidden;
+	position: relative;
+}
+.scroll_img{
+	width:580px;
+	height:480px;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.l_bd_all,.l_bd{
+	height:230px;
+}
+.featured{
+	transform: rotate(-90deg);
+	position:absolute;
+	left:95px;
+	top:275px;
+	color:#d0d0d0;
+	font-size:40px;
+	font-family:Baskerville Old Face;
+}
+
+.l_bd{
+	width:230px;
+
+	margin:0px auto; 
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.l_img{
+	height:230px;
+	width:230px;
+}
+
+.l_bd_foot{
+	width:580px;
+	height:20px;
+	margin-top: 30px;
+	text-align: center;
+	color:#8c8c8c;
+	font-size: 18px;
+	overflow: hidden;
+	position: relative;
+}
+#foot_all{
+	height:100px;
+	width:580px;
+	position: absolute;
+	color:black;
+}
+
+.bd_r{
+
+	position: relative;
+}
+.bd_r_img{
+	height:562px;
+	width:416px;
+	position: absolute;
+	overflow: hidden;
+}
+.r_img_cut{
+	height:210px;
+	width:210px;
+	position: absolute;
+	top:139px;
+	background-color: #ccffcc;
+	overflow: hidden;
+}
+.cut1{
+	left:300px;
+}
+.cut2{
+	left:540px;
+}
+.img_cut{
+	width:210px;
+	position: absolute;
+}
+.img_cut_alpha{
+	height:210px;
+	width:210px;
+	position: absolute;
+	left:210px;
+}
+
+.img_r{
+	width:530px;
+}
+.img_r_alpha{
+	height:564px;
+	width:416px;
+	position: absolute;
+	left:416px;
+	top:-1px;
+}
+.bd_r{
+	position: relative;
+}
+.bd_r_all{
+	height:563px;
+	width:1162px;
+	position: absolute;
+	left:0px;
+}
+.r_li{
+	height:563px;
+	width:580px;
+	position: absolute;
+}
+.li1{
+	left:0px;
+}
+.li2{
+	left:580px;
+	margin-left:0px; 
+}
+
